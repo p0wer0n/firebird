@@ -1,7 +1,7 @@
 lessThan(QT_MAJOR_VERSION, 5) : error("You need at least Qt 5 to build firebird!")
 
 # JIT
-TRANSLATION_ENABLED = true
+TRANSLATION_ENABLED = false
 
 # Localization
 TRANSLATIONS += i18n/de_DE.ts i18n/fr_FR.ts
